@@ -1,0 +1,84 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+}
+.footer a {
+    color: #666
+}
+
+.footer-top .about>div {
+    height: 110px;
+    margin-bottom: 10px
+}
+
+.footer-top .about>div h4 {
+    color: #101010;
+    font-size: 16px
+}
+
+.footer-bottom {
+    font-size: 13px
+}
+
+.footer-bottom ul>li {
+    padding: 0
+}
+
+.footer-bottom ul>li+li:before {
+    padding: 0 10px;
+    color: #ccc;
+    content: "|"
+}
+
+.follow-me-icons { 
+    font-size:30px;
+}        
+
+@media (max-width: 768px) {
+
+.footer a {
+    color: #666;
+}
+
+.footer-top .about>div {
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.footer-top .about>div h4 {
+    color: #101010;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    font-size: 13px;
+}
+
+.footer-bottom ul>li {
+    padding: 0
+}
+
+.footer-bottom ul>li+li:before {
+    padding: 0 10px;
+    color: #ccc;
+    content: "|"
+}
+
+.follow-me-icons { 
+    font-size:25px;
+} 
+
+
+}
