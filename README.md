@@ -32,10 +32,10 @@
   [4]: https://dn-leozhang2018.qbox.me/Screenshot%20from%202016-03-03%2012-06-29.png
 
 
- ##How to use:
+##How to use:
 
  - 下载源码后,解压至相关 Web 服务器目录(需提前部署好数据库+PHP)
- - 数据库文件为 SQL/bs_online.sql （其中有部分书籍信息残留数据，使用时请清除）,数据库连接文件为 **dbcon.php 及 librarian/dbcon.php**,使用时注意修改
+ - 数据库文件为 SQL/bs_online.sql（其中有部分书籍信息残留数据，使用时请清除）,数据库连接文件为 **dbcon.php 及 librarian/dbcon.php**,使用时注意修改
  - /home/leozhang/Desktop/html/bs_online/contact.php
  - 默认管理员用户名以及密码为:admin
  - 数据统计部分采用数据库事件方式实现，需提前编写相关 SQL 语句，设置数据库事件
